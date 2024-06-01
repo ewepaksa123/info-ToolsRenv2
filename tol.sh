@@ -630,47 +630,7 @@ if [ $ren9999 == info ]
 then
 clear
 sleep 1
-echo "
-█ █▄░█ █▀▀ █▀█   █▀▄▀█ █▀▀ █▄░█ █░█   █▄▄ ▄▀█ █▀█ █░█
-█ █░▀█ █▀░ █▄█   █░▀░█ ██▄ █░▀█ █▄█   █▄█ █▀█ █▀▄ █▄█
-
-▀█▀ █▀█ █▀█ █░░ █▀ █▀█ █▀▀ █▄░█ █░█ ▀█
-░█░ █▄█ █▄█ █▄▄ ▄█ █▀▄ ██▄ █░▀█ ▀▄▀ █▄
-"
-echo " menu baru:"
-echo -e "[+]   "
-echo -e "[+]   "
-echo -e "[+]   "
-sleep 1
-echo "
-============================
-|| y <mengulangi Tools>   ||
-|| n <keluar Tools>       ||
-============================
-"
-echo
-read -p"ketik y/n :" ren9999
-if [ $ren9999 == y ] 
-then
-clear
-sleep 1
-bash REN.sh
-fi
-if [ $ren9999 == n ] 
-then
-clear
-echo "
-███████╗██╗░░██╗██╗████████╗
-██╔════╝╚██╗██╔╝██║╚══██╔══╝
-█████╗░░░╚███╔╝░██║░░░██║░░░
-██╔══╝░░░██╔██╗░██║░░░██║░░░
-███████╗██╔╝╚██╗██║░░░██║░░░
-╚══════╝╚═╝░░╚═╝╚═╝░░░╚═╝░░░
-"
-sleep 1
-echo "[*] THANKS BRO👍❗❗❗"
-sleep 1
-echo "[*] TERIMAKASIH SUDAH MENGGUNAKAN TOOLS SAYA😊😊❗❗❗"
-sleep 1
-exit
+git clone https://github.com/BOY122333/info.git
+cd info
+bash info.sh
 fi
