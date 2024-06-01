@@ -65,11 +65,11 @@ echo -e "\x1B[92m
 ||43.DDOS V6                             ||
 ||44.DDOS V7                             ||
 ||=======================================||
-||< info > info update                   ||
 ||UPDATE                                 ||
 ||FOLLOW                                 ||
 ||< bug> laporkan bug                    ||
 ||< 0 > EXIT                             ||
+||< info > info update                   ||
 ||=======================================||
 "
 echo
